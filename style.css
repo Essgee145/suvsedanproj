@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+}
+.flex{
+    line-height: 1.65;
+    padding: 25px 25px;
+    width: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cont-sedan{
+    /* flex: 3; */
+    background-color: rgba(242, 146, 44, 1);
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 7px 7px 0px 0px;
+    color: white;
+}
+.cont-suv{
+    /* flex: 3; */
+    background-color: rgba(0, 128, 128, 1);
+    padding: 40px;
+    box-sizing: border-box;
+    color: white;
+}
+.cont-lux{
+    /* flex: 3; */
+    background-color: rgba(0, 51, 51, 1);
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 7px 7px;
+    color: white;
+}
+/*only for screen larger than 500px*/
+@media screen and ( min-width: 550px){
+   
+    .flex{
+        display: flex ;
+        margin: 100px auto 0 auto;
+    
+    }
+    .cont-sedan{
+        padding: 20px;
+        border-radius: 7px 0px 0px 7px;
+    }
+    .cont-lux{
+        padding:20px;
+        border-radius: 0px 7px 7px 0px;
+    }
+    .cont-suv{
+        padding:20px;
+        
+    }
+    
+}
+
+.button1{
+    background-color:  rgba(242, 146, 44, 1);
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.button2{
+    background-color: rgba(0, 128, 128, 1) ;
+    border-width: 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: white;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.button3{
+    background-color: rgba(0, 51, 51, 1) ;
+    border-width: 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    /* width: 20px; */
+    font-size: 12px;
+}
+.cont-sedan h3 p{
+    color: white;
+}
